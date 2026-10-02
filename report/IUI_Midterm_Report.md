@@ -1,4 +1,4 @@
-# IUI Midterm Report — Object Detection & Depth Estimation using Monocular Camera
+# IUI Assignment — Object Detection & Depth Estimation using Monocular Camera
 
 ## YOLOv8 + Depth Anything V2: A Hybrid Computer Vision Pipeline
 
@@ -10,13 +10,7 @@
 
 ## 1. Introduction
 
-### 1.1 Problem Statement
-
-Human visual perception excels at straight-forward distance estimation. However, when operating through a monocular camera — as is common in drone, robotic, and surveillance applications — depth perception is fundamentally lost. Standard 2D object detection models like YOLO can identify *what* objects are present and *where* they are in the image plane, but cannot determine *how far* they are from the camera.
-
-This creates an unacceptable limitation for remote drone operations, autonomous navigation, and robotic manipulation tasks where metric distance measurement is essential for reliable operation.
-
-### 1.2 Objective
+### 1.1 Objective
 
 We implement a **hybrid YOLOv8 + Depth Anything V2 (DA-V2) architecture** that combines:
 1. **YOLOv8** — Fast, accurate real-time object detection (bounding boxes, class labels, confidence scores)
@@ -24,7 +18,7 @@ We implement a **hybrid YOLOv8 + Depth Anything V2 (DA-V2) architecture** that c
 
 Together, these models provide both object identification and spatial distance awareness from a single monocular camera input — enabling applications such as drone navigation, obstacle avoidance, and robotic pick-and-place without requiring specialized depth sensors (LiDAR, stereo cameras).
 
-### 1.3 Why This Matters
+### 1.2 Why This Matters
 
 | Capability | YOLO Alone | YOLO + DA-V2 |
 |:---|:---:|:---:|
