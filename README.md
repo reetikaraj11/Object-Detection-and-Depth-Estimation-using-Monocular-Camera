@@ -95,7 +95,7 @@ uv pip install --link-mode=copy -r requirements.txt
 .venv\Scripts\python src\check_env.py
 ```
 
-### 3. Run Pipeline (Day 2)
+### 3. Run Pipeline
 
 Processes the input video through YOLOv8 + Depth Anything V2:
 
@@ -107,7 +107,7 @@ Processes the input video through YOLOv8 + Depth Anything V2:
 - `results/output_with_depth.mp4` — Annotated video with bboxes + depth labels + depth map overlay
 - `results/detections_with_depth.csv` — Per-detection CSV log
 
-### 4. Run Evaluation (Day 3)
+### 4. Run Evaluation
 
 Validates YOLOv8 on COCO8 and analyzes detection/depth statistics:
 
@@ -115,7 +115,7 @@ Validates YOLOv8 on COCO8 and analyzes detection/depth statistics:
 .venv\Scripts\python src\evaluate.py
 ```
 
-### 5. Generate Visualizations (Day 3)
+### 5. Generate Visualizations
 
 Creates 6 publication-quality analytical figures + side-by-side comparison frames:
 
@@ -123,7 +123,7 @@ Creates 6 publication-quality analytical figures + side-by-side comparison frame
 .venv\Scripts\python src\visualize.py
 ```
 
-### 6. Run 3D Distance Estimation (Day 4)
+### 6. Run 3D Distance Estimation
 
 Implements Algorithm 1 — inter-object spatial distance using Law of Cosines:
 
