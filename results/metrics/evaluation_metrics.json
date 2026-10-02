@@ -1,0 +1,173 @@
+{
+  "yolo_benchmark": {
+    "dataset": "coco8.yaml",
+    "mAP50": 0.8875131975867271,
+    "mAP50_95": 0.6290666933218909,
+    "mAP75": 0.6346575670498085,
+    "precision": 0.6209717460389443,
+    "recall": 0.8333333333333334,
+    "fitness": 0.6290666933218909,
+    "speed_ms": {
+      "preprocess": 1.3195249999853331,
+      "inference": 11.698099999989608,
+      "loss": 0.001575000055709097,
+      "postprocess": 2.933650000045418,
+      "total_per_image": 15.952850000076069
+    }
+  },
+  "pipeline_statistics": {
+    "total_detections": 421,
+    "unique_frames_with_detections": 265,
+    "unique_classes_detected": 11,
+    "confidence": {
+      "mean": 0.6508729273094984,
+      "std": 0.2035428604077347,
+      "min": 0.2534872591495514,
+      "max": 0.950326144695282,
+      "median": 0.7054064273834229
+    },
+    "depth": {
+      "mean": 4.1381421202435344,
+      "std": 2.110402218004138,
+      "min": 0.9685275554656982,
+      "max": 9.841073989868164,
+      "median": 3.092828750610352,
+      "iqr_25": 2.4183082580566406,
+      "iqr_75": 5.668447494506836
+    }
+  },
+  "per_class_breakdown": {
+    "person": {
+      "class_id": 0,
+      "count": 226,
+      "percentage": 53.68,
+      "conf_mean": 0.672,
+      "conf_std": 0.1847,
+      "depth_mean": 3.764,
+      "depth_median": 2.808,
+      "depth_std": 2.16,
+      "depth_min": 0.969,
+      "depth_max": 9.841
+    },
+    "car": {
+      "class_id": 2,
+      "count": 84,
+      "percentage": 19.95,
+      "conf_mean": 0.6898,
+      "conf_std": 0.2298,
+      "depth_mean": 5.265,
+      "depth_median": 5.124,
+      "depth_std": 1.137,
+      "depth_min": 3.435,
+      "depth_max": 7.868
+    },
+    "bicycle": {
+      "class_id": 1,
+      "count": 62,
+      "percentage": 14.73,
+      "conf_mean": 0.6816,
+      "conf_std": 0.1625,
+      "depth_mean": 2.378,
+      "depth_median": 2.44,
+      "depth_std": 0.21,
+      "depth_min": 1.759,
+      "depth_max": 2.678
+    },
+    "cell phone": {
+      "class_id": 67,
+      "count": 16,
+      "percentage": 3.8,
+      "conf_mean": 0.5874,
+      "conf_std": 0.2071,
+      "depth_mean": 6.168,
+      "depth_median": 6.08,
+      "depth_std": 0.637,
+      "depth_min": 4.876,
+      "depth_max": 7.156
+    },
+    "kite": {
+      "class_id": 33,
+      "count": 13,
+      "percentage": 3.09,
+      "conf_mean": 0.3556,
+      "conf_std": 0.0573,
+      "depth_mean": 7.472,
+      "depth_median": 7.475,
+      "depth_std": 0.034,
+      "depth_min": 7.413,
+      "depth_max": 7.513
+    },
+    "boat": {
+      "class_id": 8,
+      "count": 7,
+      "percentage": 1.66,
+      "conf_mean": 0.4903,
+      "conf_std": 0.1398,
+      "depth_mean": 7.487,
+      "depth_median": 7.492,
+      "depth_std": 0.073,
+      "depth_min": 7.374,
+      "depth_max": 7.574
+    },
+    "motorcycle": {
+      "class_id": 3,
+      "count": 3,
+      "percentage": 0.71,
+      "conf_mean": 0.3042,
+      "conf_std": 0.0118,
+      "depth_mean": 2.264,
+      "depth_median": 2.259,
+      "depth_std": 0.082,
+      "depth_min": 2.185,
+      "depth_max": 2.349
+    },
+    "bus": {
+      "class_id": 5,
+      "count": 3,
+      "percentage": 0.71,
+      "conf_mean": 0.3614,
+      "conf_std": 0.0603,
+      "depth_mean": 6.752,
+      "depth_median": 6.798,
+      "depth_std": 0.686,
+      "depth_min": 6.045,
+      "depth_max": 7.414
+    },
+    "tennis racket": {
+      "class_id": 38,
+      "count": 3,
+      "percentage": 0.71,
+      "conf_mean": 0.3879,
+      "conf_std": 0.0516,
+      "depth_mean": 1.825,
+      "depth_median": 1.984,
+      "depth_std": 0.423,
+      "depth_min": 1.345,
+      "depth_max": 2.146
+    },
+    "sports ball": {
+      "class_id": 32,
+      "count": 2,
+      "percentage": 0.48,
+      "conf_mean": 0.3947,
+      "conf_std": 0.1318,
+      "depth_mean": 8.101,
+      "depth_median": 8.101,
+      "depth_std": 0.314,
+      "depth_min": 7.879,
+      "depth_max": 8.323
+    },
+    "skateboard": {
+      "class_id": 36,
+      "count": 2,
+      "percentage": 0.48,
+      "conf_mean": 0.2717,
+      "conf_std": 0.0167,
+      "depth_mean": 2.44,
+      "depth_median": 2.44,
+      "depth_std": 0.133,
+      "depth_min": 2.345,
+      "depth_max": 2.534
+    }
+  }
+}

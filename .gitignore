@@ -1,0 +1,74 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Model weights (large binary files — download at runtime)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# HuggingFace cache
+.cache/
+
+# Large input data (download via src/download_sample_data.py)
+data/*.mp4
+data/*.avi
+data/*.mov
+data/coco8/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/*.html
+
+# Ultralytics runs (validation outputs)
+runs/
+
+# Temporary / scratch
+scratch/
+*.tmp
+*.log
+
+# Submission packaging (large zip + manifests)
+submission/
+
+# Assignment PDFs (not part of the codebase)
+iui assignment question.pdf
+iui assignment.pdf
+
+# Internal dev plan
+implementation_plan.md
+
+# Internal utility scripts (not needed for submission)
+src/dry_run_simulation.py
+src/package_submission.py
+src/validate_submission_zip.py
+src/ftp_upload_prep.py
+src/verify_all_days.py
+src/generate_pdf_report.py
+src/check_env.py
+src/generate_notebook.py
+
+run_all.bat
+run_all.ps1
